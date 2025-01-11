@@ -19,7 +19,6 @@ ul{
 .header{
     display: flex;
     grid-column: 2/3;
-
     align-items: center;
    
 }
@@ -47,6 +46,7 @@ ul{
         gap: 1%;
        justify-content: center;
     }
+    
 }
 @media screen and (max-width: 504px){
     .header{

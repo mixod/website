@@ -29,3 +29,36 @@
 a{
     text-decoration: none;
 }
+.Hambergmenu{
+    display: none;
+}
+@media screen and (max-width: 998px){
+
+    .Hambergmenu{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    .mobile-menu-link{
+        width: 100%;
+        height: 10rem;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        top: 5rem;
+        position: absolute;
+        z-index: 1000;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobile-menu-link ul{
+        display: flex;
+        flex-direction: column;
+        gap: 3%;
+    }
+    .nav-links{
+        display: none;
+    }
+
+}
+
+
