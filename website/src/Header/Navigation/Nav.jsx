@@ -17,7 +17,7 @@ function Nav({ intro, menu, setContent }) {
           
           <ul>
             <li onClick={() => setContent("Home")}>
-              <a href="#">{home}</a>
+              <a href="#" style={{color:"blue"}}>{home}</a>
             </li>
             <li onClick={() => setContent("About Us")}>
               <a href="#">{aboutUs}</a>
