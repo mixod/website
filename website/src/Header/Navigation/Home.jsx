@@ -1,7 +1,10 @@
+/* eslint-disable react/prop-types */
+
+import About from "./About";
 
 
 
-function Home() {
+function Home({setContent}) {
   
   return (
     <>
@@ -17,8 +20,12 @@ function Home() {
           sharing for impactful solutions.
         </p>
         </div>
+        <div>
+          <button onClick={()=>setContent("Home")} style={{color:"white" , backgroundColor:"#00a0e8" , padding:"1%"}}>Get Start Now</button>
+        </div>
       </div>
       </div>
+      <About/>
     </>
   );
 }

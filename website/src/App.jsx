@@ -26,7 +26,7 @@ function App() {
       <Nav intro={introduction} menu={menuLinks} setContent={setContent} />
       
         <Content content={content} />
-    
+      
       
     </>
   );
